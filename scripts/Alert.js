@@ -1,5 +1,7 @@
 !function(){
     this.Alert = function Alert(){
+        Events.call(this);
+
         this.generate();    
     };
 
@@ -11,6 +13,7 @@
         },
         show : function(){
             this.element.className = 'Alert open';    
+            this.fireEvent('show');
         }
     };
 }.apply(this,[]);
