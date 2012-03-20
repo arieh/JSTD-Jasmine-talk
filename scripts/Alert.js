@@ -12,8 +12,12 @@
             this.element.className = 'Alert close';
         },
         show : function(){
-            this.element.className = 'Alert open';    
-            this.fireEvent('show');
+            var $this = this;
+
+            animate.fadeIn(this.element, function(){
+                $this.element.className = 'Alert open';    
+                $this.fireEvent('show'); 
+            },1000);
         }
     };
 }.apply(this,[]);
