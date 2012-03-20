@@ -4,6 +4,7 @@
     };
 
     Alert.prototype = {
+        constructor : Alert,
         generate : function(){
             this.element = document.createElement('div');
             this.element.className = 'Alert';
