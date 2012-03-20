@@ -1,0 +1,3 @@
+define("Alert",function(){
+    
+});
