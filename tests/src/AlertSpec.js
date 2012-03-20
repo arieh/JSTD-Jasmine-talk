@@ -11,15 +11,20 @@ describe("Alert",function(){
     });
     
     it ("Should open when calling show method", function(){
-        var a = new Alert();
+        var a = new Alert(), flag;
 
         expect(a.element.classList.contains('close')).toEqual(true, "element should be hidden by default");
         expect(a.element.classList.contains('open')).toEqual(false, "element should not contain an open class");
+
+        a.addEvent('show',function(){
+            flag = true;    
+        });
         
         a.show();                       
 
         expect(a.element.classList.contains('close')).toEqual(false, "element should not have a close class when opened");
         expect(a.element.classList.contains('open')).toEqual(true, "element should contain an open class when opened");
+        expect(flag).toEqual(true, "Alert should have fired a 'show' event");
     });
     
 
