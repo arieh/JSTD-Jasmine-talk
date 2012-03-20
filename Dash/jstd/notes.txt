@@ -1,0 +1,48 @@
+who am I
+architect:
+  - JS
+  - CSS
+  - HTML
+  
+Evengalist
+  - Standards are easy
+  - Standards are cheap
+  - Standards are cross-platform
+
+History
+- HTML first version came out 1990 (Tim berners Lee)
+- Hyper Text Markup Language
+- made for marking up text
+- what does it mean "mark up text"? for what purpose? (visual/ *audiable*)
+
+Yahoo as a case study
+- Basic site (1996) - no design - just list elements.
+- Upgraded - tables - why tables? What happened?
+- 2011 - no tables - but full of divs - the real joke
+  
+- Conclusion:
+- we were never tought how to use HTML as a markup language
+- we can today go back to use it as such - CSS is powerful enough
+- There is no reason to break our heads on stuff like complex positioning - 
+   TML/CSS are mostly simple
+
+Exercise:
+  - write in hebrew
+  - run wild
+
+In the end of exercise -   
+  - mark up w/ actual elements
+  
+Relationships:
+  - How to work with lists
+  - What is DL and how does it work
+
+Steps in marking up a page:
+  - identify sections
+  - identify lists
+  - identify reusables
+
+Main points 
+1. It's easy to write semantics
+2. The web was made to be sematic
+3. It makes code simpler, easier to read and easier to maintain.
